@@ -39,3 +39,12 @@ BR(H -> ~tau_2- ~tau_2+)	=  7.738e-04
 BR(H -> ~tau_1- ~tau_2+)	=  1.137e-01
 BR(H -> ~tau_2- ~tau_1+)	=  1.137e-01
 ```
+To plot the branching ratios do
+```
+  plotslha.py -l -p35 pMSSM.slha
+```
+and do
+```
+  plotslha.py pMSSM.slha
+```
+for the mass spectrum
