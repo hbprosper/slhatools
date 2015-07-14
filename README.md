@@ -1,5 +1,5 @@
 # slhatools
-Some simple SLHA tools. This package depends on **ROOT** (from [CERN][https://root.cern.ch/drupal/])
+Some simple SLHA tools. This package depends on **ROOT** from [CERN](https://root.cern.ch/drupal).
 
 ## Setup
 ```
