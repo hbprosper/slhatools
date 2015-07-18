@@ -2,7 +2,7 @@
 # Created 12-Jul-2015 Harrison B. Prosper
 # ----------------------------------------------------------------------------
 ifndef ROOTSYS
-	$(error Please set up Root)
+$(error Please set up Root)
 endif
 
 ifndef EXTERNAL
