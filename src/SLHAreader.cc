@@ -78,7 +78,7 @@ SLHAreader::SLHAreader(std::string _slhafilename)
 
   // now decode list of strings
   string name("");
-  bool block = false;
+  bool InBlock = false;
   int c = -1;
   while ( c < (int)records.size()-1 )
     {
@@ -97,7 +97,7 @@ SLHAreader::SLHAreader(std::string _slhafilename)
       if ( token == "BLOCK" ||
 	   token == "block" )
 	{
-	  block = true;
+	  InBlock = true;
 	  name  = vstr[1];
 	  keymap[name] = vector<string>();
 	  
@@ -118,7 +118,7 @@ SLHAreader::SLHAreader(std::string _slhafilename)
       else if ( token == "DECAY" ||
 		token == "decay" )
 	{
-	  block = false;
+	  InBlock = false;
 	  name = vstr[1];
 	  keymap[name] = vector<string>();
 	  
@@ -133,7 +133,7 @@ SLHAreader::SLHAreader(std::string _slhafilename)
 	  continue;
 	}
 
-      if ( block )
+      if ( InBlock )
 	{
 	  // we're in block
 	  Item item;
