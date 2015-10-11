@@ -1,0 +1,439 @@
+DCINFO 1|decay calculator
+DCINFO 2|version number
+SPINFO 1|spectrum calculator
+SPINFO 2|version number
+MODSEL 1|nonUniversal
+SMINPUTS 1|alpha_em^-1(M_Z)^MSbar
+SMINPUTS 2|G_F [GeV^-2]
+SMINPUTS 3|alpha_S(M_Z)^MSbar
+SMINPUTS 4|M_Z pole mass
+SMINPUTS 5|mb(mb)^MSbar
+SMINPUTS 6|mt pole mass
+SMINPUTS 7|mtau pole mass
+MINPAR 3|tanb
+EXTPAR 1|M_1(MX)
+EXTPAR 2|M_2(MX)
+EXTPAR 3|M_3(MX)
+EXTPAR 11|At(MX)
+EXTPAR 12|Ab(MX)
+EXTPAR 13|Atau(MX)
+EXTPAR 23|mu(MX)
+EXTPAR 26|mA(pole)
+EXTPAR 31|meL(MX)
+EXTPAR 32|mmuL(MX)
+EXTPAR 33|mtauL(MX)
+EXTPAR 34|meR(MX)
+EXTPAR 35|mmuR(MX)
+EXTPAR 36|mtauR(MX)
+EXTPAR 41|mqL1(MX)
+EXTPAR 42|mqL2(MX)
+EXTPAR 43|mqL3(MX)
+EXTPAR 44|muR(MX)
+EXTPAR 45|mcR(MX)
+EXTPAR 46|mtR(MX)
+EXTPAR 47|mdR(MX)
+EXTPAR 48|msR(MX)
+EXTPAR 49|mbR(MX)
+MASS 24|W+
+MASS 25|h
+MASS 35|H
+MASS 36|A
+MASS 37|H+
+MASS 5|b-quark pole mass calculated from mb(mb)_Msbar
+MASS 1000001|~d_L
+MASS 2000001|~d_R
+MASS 1000002|~u_L
+MASS 2000002|~u_R
+MASS 1000003|~s_L
+MASS 2000003|~s_R
+MASS 1000004|~c_L
+MASS 2000004|~c_R
+MASS 1000005|~b_1
+MASS 2000005|~b_2
+MASS 1000006|~t_1
+MASS 2000006|~t_2
+MASS 1000011|~e_L
+MASS 2000011|~e_R
+MASS 1000012|~nu_eL
+MASS 1000013|~mu_L
+MASS 2000013|~mu_R
+MASS 1000014|~nu_muL
+MASS 1000015|~tau_1
+MASS 2000015|~tau_2
+MASS 1000016|~nu_tauL
+MASS 1000021|~g
+MASS 1000022|~chi_10
+MASS 1000023|~chi_20
+MASS 1000025|~chi_30
+MASS 1000035|~chi_40
+MASS 1000024|~chi_1+
+MASS 1000037|~chi_2+
+NMIX 1 1|N_11
+NMIX 1 2|N_12
+NMIX 1 3|N_13
+NMIX 1 4|N_14
+NMIX 2 1|N_21
+NMIX 2 2|N_22
+NMIX 2 3|N_23
+NMIX 2 4|N_24
+NMIX 3 1|N_31
+NMIX 3 2|N_32
+NMIX 3 3|N_33
+NMIX 3 4|N_34
+NMIX 4 1|N_41
+NMIX 4 2|N_42
+NMIX 4 3|N_43
+NMIX 4 4|N_44
+UMIX 1 1|U_11
+UMIX 1 2|U_12
+UMIX 2 1|U_21
+UMIX 2 2|U_22
+VMIX 1 1|V_11
+VMIX 1 2|V_12
+VMIX 2 1|V_21
+VMIX 2 2|V_22
+STOPMIX 1 1|cos(theta_t)
+STOPMIX 1 2|sin(theta_t)
+STOPMIX 2 1|-sin(theta_t)
+STOPMIX 2 2|cos(theta_t)
+SBOTMIX 1 1|cos(theta_b)
+SBOTMIX 1 2|sin(theta_b)
+SBOTMIX 2 1|-sin(theta_b)
+SBOTMIX 2 2|cos(theta_b)
+STAUMIX 1 1|cos(theta_tau)
+STAUMIX 1 2|sin(theta_tau)
+STAUMIX 2 1|-sin(theta_tau)
+STAUMIX 2 2|cos(theta_tau)
+ALPHA 1|Mixing angle in the neutral Higgs boson sector
+HMIX
+HMIX 1|mu(Q)MSSM
+HMIX 2|tan
+HMIX 3|higgs
+HMIX 4|mA^2(Q)MSSM
+GAUGE
+GAUGE 1|gprime(Q) DRbar
+GAUGE 2|g(Q) DRbar
+GAUGE 3|g3(Q) DRbar
+AU
+AU 1 1|A_u(Q) DRbar
+AU 2 2|A_c(Q) DRbar
+AU 3 3|A_t(Q) DRbar
+AD
+AD 1 1|A_d(Q) DRbar
+AD 2 2|A_s(Q) DRbar
+AD 3 3|A_b(Q) DRbar
+AE
+AE 1 1|A_e(Q) DRbar
+AE 2 2|A_mu(Q) DRbar
+AE 3 3|A_tau(Q) DRbar
+Yu
+Yu 1 1|y_u(Q) DRbar
+Yu 2 2|y_c(Q) DRbar
+Yu 3 3|y_t(Q) DRbar
+Yd
+Yd 1 1|y_d(Q) DRbar
+Yd 2 2|y_s(Q) DRbar
+Yd 3 3|y_b(Q) DRbar
+Ye
+Ye 1 1|y_e(Q) DRbar
+Ye 2 2|y_mu(Q) DRbar
+Ye 3 3|y_tau(Q) DRbar
+MSOFT
+MSOFT 1|M_1(Q)
+MSOFT 2|M_2(Q)
+MSOFT 3|M_3(Q)
+MSOFT 21|mH1^2(Q)
+MSOFT 22|mH2^2(Q)
+MSOFT 31|meL(Q)
+MSOFT 32|mmuL(Q)
+MSOFT 33|mtauL(Q)
+MSOFT 34|meR(Q)
+MSOFT 35|mmuR(Q)
+MSOFT 36|mtauR(Q)
+MSOFT 41|mqL1(Q)
+MSOFT 42|mqL2(Q)
+MSOFT 43|mqL3(Q)
+MSOFT 44|muR(Q)
+MSOFT 45|mcR(Q)
+MSOFT 46|mtR(Q)
+MSOFT 47|mdR(Q)
+MSOFT 48|msR(Q)
+MSOFT 49|mbR(Q)
+6
+6 5 24|BR(t -> b W+)
+1000021
+1000021 2000001 -1|BR(~g -> ~d_R db)
+1000021 -2000001 1|BR(~g -> ~d_R* d)
+1000021 2000002 -2|BR(~g -> ~u_R ub)
+1000021 -2000002 2|BR(~g -> ~u_R* u)
+1000021 2000003 -3|BR(~g -> ~s_R sb)
+1000021 -2000003 3|BR(~g -> ~s_R* s)
+1000021 2000004 -4|BR(~g -> ~c_R cb)
+1000021 -2000004 4|BR(~g -> ~c_R* c)
+1000021 1000006 -6|BR(~g -> ~t_1 tb)
+1000021 -1000006 6|BR(~g -> ~t_1* t)
+1000006
+1000006 1000022 6|BR(~t_1 -> ~chi_10 t)
+2000006
+2000006 1000022 6|BR(~t_2 -> ~chi_10 t)
+2000006 1000023 6|BR(~t_2 -> ~chi_20 t)
+2000006 1000025 6|BR(~t_2 -> ~chi_30 t)
+2000006 1000024 5|BR(~t_2 -> ~chi_1+ b)
+2000006 1000037 5|BR(~t_2 -> ~chi_2+ b)
+2000006 1000021 6|BR(~t_2 -> ~g t)
+2000006 1000006 25|BR(~t_2 -> ~t_1 h)
+2000006 1000006 23|BR(~t_2 -> ~t_1 Z)
+2000006 1000005 24|BR(~t_2 -> ~b_1 W+)
+1000005
+1000005 1000022 5|BR(~b_1 -> ~chi_10 b)
+1000005 1000023 5|BR(~b_1 -> ~chi_20 b)
+1000005 1000025 5|BR(~b_1 -> ~chi_30 b)
+1000005 -1000024 6|BR(~b_1 -> ~chi_1- t)
+1000005 1000021 5|BR(~b_1 -> ~g b)
+1000005 1000006 -24|BR(~b_1 -> ~t_1 W-)
+2000005
+2000005 1000022 5|BR(~b_2 -> ~chi_10 b)
+2000005 1000023 5|BR(~b_2 -> ~chi_20 b)
+2000005 1000025 5|BR(~b_2 -> ~chi_30 b)
+2000005 1000035 5|BR(~b_2 -> ~chi_40 b)
+2000005 -1000024 6|BR(~b_2 -> ~chi_1- t)
+2000005 1000021 5|BR(~b_2 -> ~g b)
+2000005 1000005 25|BR(~b_2 -> ~b_1 h)
+2000005 1000005 23|BR(~b_2 -> ~b_1 Z)
+2000005 1000006 -24|BR(~b_2 -> ~t_1 W-)
+1000002
+1000002 1000022 2|BR(~u_L -> ~chi_10 u)
+1000002 1000023 2|BR(~u_L -> ~chi_20 u)
+1000002 1000025 2|BR(~u_L -> ~chi_30 u)
+1000002 1000024 1|BR(~u_L -> ~chi_1+ d)
+1000002 1000021 2|BR(~u_L -> ~g u)
+2000002
+2000002 1000022 2|BR(~u_R -> ~chi_10 u)
+2000002 1000023 2|BR(~u_R -> ~chi_20 u)
+2000002 1000025 2|BR(~u_R -> ~chi_30 u)
+1000001
+1000001 1000022 1|BR(~d_L -> ~chi_10 d)
+1000001 1000023 1|BR(~d_L -> ~chi_20 d)
+1000001 1000025 1|BR(~d_L -> ~chi_30 d)
+1000001 -1000024 2|BR(~d_L -> ~chi_1- u)
+1000001 1000021 1|BR(~d_L -> ~g d)
+2000001
+2000001 1000022 1|BR(~d_R -> ~chi_10 d)
+1000004
+1000004 1000022 4|BR(~c_L -> ~chi_10 c)
+1000004 1000023 4|BR(~c_L -> ~chi_20 c)
+1000004 1000025 4|BR(~c_L -> ~chi_30 c)
+1000004 1000024 3|BR(~c_L -> ~chi_1+ s)
+1000004 1000021 4|BR(~c_L -> ~g c)
+2000004
+2000004 1000022 4|BR(~c_R -> ~chi_10 c)
+2000004 1000023 4|BR(~c_R -> ~chi_20 c)
+2000004 1000025 4|BR(~c_R -> ~chi_30 c)
+1000003
+1000003 1000022 3|BR(~s_L -> ~chi_10 s)
+1000003 1000023 3|BR(~s_L -> ~chi_20 s)
+1000003 1000025 3|BR(~s_L -> ~chi_30 s)
+1000003 -1000024 4|BR(~s_L -> ~chi_1- c)
+1000003 1000021 3|BR(~s_L -> ~g s)
+2000003
+2000003 1000022 3|BR(~s_R -> ~chi_10 s)
+1000011
+1000011 1000022 11|BR(~e_L -> ~chi_10 e-)
+1000011 1000023 11|BR(~e_L -> ~chi_20 e-)
+1000011 1000025 11|BR(~e_L -> ~chi_30 e-)
+1000011 -1000024 12|BR(~e_L -> ~chi_1- nu_e)
+2000011
+2000011 1000022 11|BR(~e_R -> ~chi_10 e-)
+2000011 1000023 11|BR(~e_R -> ~chi_20 e-)
+2000011 1000025 11|BR(~e_R -> ~chi_30 e-)
+1000013
+1000013 1000022 13|BR(~mu_L -> ~chi_10 mu-)
+1000013 1000023 13|BR(~mu_L -> ~chi_20 mu-)
+1000013 1000025 13|BR(~mu_L -> ~chi_30 mu-)
+1000013 -1000024 14|BR(~mu_L -> ~chi_1- nu_mu)
+2000013
+2000013 1000022 13|BR(~mu_R -> ~chi_10 mu-)
+2000013 1000023 13|BR(~mu_R -> ~chi_20 mu-)
+2000013 1000025 13|BR(~mu_R -> ~chi_30 mu-)
+1000015
+1000015 1000022 15|BR(~tau_1 -> ~chi_10 tau-)
+2000015
+2000015 1000022 15|BR(~tau_2 -> ~chi_10 tau-)
+2000015 1000015 25|BR(~tau_2 -> ~tau_1 h)
+2000015 1000015 23|BR(~tau_2 -> ~tau_1 Z)
+1000012
+1000012 1000022 12|BR(~nu_eL -> ~chi_10 nu_e)
+1000012 1000023 12|BR(~nu_eL -> ~chi_20 nu_e)
+1000012 1000025 12|BR(~nu_eL -> ~chi_30 nu_e)
+1000012 1000024 11|BR(~nu_eL -> ~chi_1+ e-)
+1000014
+1000014 1000022 14|BR(~nu_muL -> ~chi_10 nu_mu)
+1000014 1000023 14|BR(~nu_muL -> ~chi_20 nu_mu)
+1000014 1000025 14|BR(~nu_muL -> ~chi_30 nu_mu)
+1000014 1000024 13|BR(~nu_muL -> ~chi_1+ mu-)
+1000016
+1000016 1000022 16|BR(~nu_tauL -> ~chi_10 nu_tau)
+1000016 -1000015 -24|BR(~nu_tauL -> ~tau_1+ W-)
+1000024
+1000024 1000006 -5|BR(~chi_1+ -> ~t_1 bb)
+1000024 1000016 -15|BR(~chi_1+ -> ~nu_tau1 tau+)
+1000024 -1000015 16|BR(~chi_1+ -> ~tau_1+ nu_tau)
+1000024 -2000015 16|BR(~chi_1+ -> ~tau_2+ nu_tau)
+1000024 1000022 24|BR(~chi_1+ -> ~chi_10 W+)
+1000037
+1000037 1000002 -1|BR(~chi_2+ -> ~u_L db)
+1000037 -1000001 2|BR(~chi_2+ -> ~d_L* u)
+1000037 1000004 -3|BR(~chi_2+ -> ~c_L sb)
+1000037 -1000003 4|BR(~chi_2+ -> ~s_L* c)
+1000037 1000006 -5|BR(~chi_2+ -> ~t_1 bb)
+1000037 1000012 -11|BR(~chi_2+ -> ~nu_eL e+)
+1000037 1000014 -13|BR(~chi_2+ -> ~nu_muL mu+)
+1000037 1000016 -15|BR(~chi_2+ -> ~nu_tau1 tau+)
+1000037 -1000011 12|BR(~chi_2+ -> ~e_L+ nu_e)
+1000037 -1000013 14|BR(~chi_2+ -> ~mu_L+ nu_mu)
+1000037 -1000015 16|BR(~chi_2+ -> ~tau_1+ nu_tau)
+1000037 -2000015 16|BR(~chi_2+ -> ~tau_2+ nu_tau)
+1000037 1000024 23|BR(~chi_2+ -> ~chi_1+ Z)
+1000037 1000022 24|BR(~chi_2+ -> ~chi_10 W+)
+1000037 1000023 24|BR(~chi_2+ -> ~chi_20 W+)
+1000037 1000025 24|BR(~chi_2+ -> ~chi_30 W+)
+1000037 1000024 25|BR(~chi_2+ -> ~chi_1+ h)
+1000022
+1000023
+1000023 1000022 23|BR(~chi_20 -> ~chi_10 Z)
+1000023 1000022 25|BR(~chi_20 -> ~chi_10 h)
+1000023 2000001 -1|BR(~chi_20 -> ~d_R db)
+1000023 -2000001 1|BR(~chi_20 -> ~d_R* d)
+1000023 2000003 -3|BR(~chi_20 -> ~s_R sb)
+1000023 -2000003 3|BR(~chi_20 -> ~s_R* s)
+1000023 1000006 -6|BR(~chi_20 -> ~t_1 tb)
+1000023 -1000006 6|BR(~chi_20 -> ~t_1* t)
+1000023 1000015 -15|BR(~chi_20 -> ~tau_1- tau+)
+1000023 -1000015 15|BR(~chi_20 -> ~tau_1+ tau-)
+1000023 2000015 -15|BR(~chi_20 -> ~tau_2- tau+)
+1000023 -2000015 15|BR(~chi_20 -> ~tau_2+ tau-)
+1000023 1000016 -16|BR(~chi_20 -> ~nu_tau1 nu_taub)
+1000023 -1000016 16|BR(~chi_20 -> ~nu_tau1* nu_tau)
+1000025
+1000025 1000022 23|BR(~chi_30 -> ~chi_10 Z)
+1000025 1000022 25|BR(~chi_30 -> ~chi_10 h)
+1000025 2000001 -1|BR(~chi_30 -> ~d_R db)
+1000025 -2000001 1|BR(~chi_30 -> ~d_R* d)
+1000025 2000003 -3|BR(~chi_30 -> ~s_R sb)
+1000025 -2000003 3|BR(~chi_30 -> ~s_R* s)
+1000025 1000006 -6|BR(~chi_30 -> ~t_1 tb)
+1000025 -1000006 6|BR(~chi_30 -> ~t_1* t)
+1000025 1000015 -15|BR(~chi_30 -> ~tau_1- tau+)
+1000025 -1000015 15|BR(~chi_30 -> ~tau_1+ tau-)
+1000025 2000015 -15|BR(~chi_30 -> ~tau_2- tau+)
+1000025 -2000015 15|BR(~chi_30 -> ~tau_2+ tau-)
+1000025 1000016 -16|BR(~chi_30 -> ~nu_tau1 nu_taub)
+1000025 -1000016 16|BR(~chi_30 -> ~nu_tau1* nu_tau)
+1000035
+1000035 1000022 23|BR(~chi_40 -> ~chi_10 Z)
+1000035 1000023 23|BR(~chi_40 -> ~chi_20 Z)
+1000035 1000025 23|BR(~chi_40 -> ~chi_30 Z)
+1000035 1000024 -24|BR(~chi_40 -> ~chi_1+ W-)
+1000035 -1000024 24|BR(~chi_40 -> ~chi_1- W+)
+1000035 1000022 25|BR(~chi_40 -> ~chi_10 h)
+1000035 1000023 25|BR(~chi_40 -> ~chi_20 h)
+1000035 1000025 25|BR(~chi_40 -> ~chi_30 h)
+1000035 1000002 -2|BR(~chi_40 -> ~u_L ub)
+1000035 -1000002 2|BR(~chi_40 -> ~u_L* u)
+1000035 2000002 -2|BR(~chi_40 -> ~u_R ub)
+1000035 -2000002 2|BR(~chi_40 -> ~u_R* u)
+1000035 1000001 -1|BR(~chi_40 -> ~d_L db)
+1000035 -1000001 1|BR(~chi_40 -> ~d_L* d)
+1000035 2000001 -1|BR(~chi_40 -> ~d_R db)
+1000035 -2000001 1|BR(~chi_40 -> ~d_R* d)
+1000035 1000004 -4|BR(~chi_40 -> ~c_L cb)
+1000035 -1000004 4|BR(~chi_40 -> ~c_L* c)
+1000035 2000004 -4|BR(~chi_40 -> ~c_R cb)
+1000035 -2000004 4|BR(~chi_40 -> ~c_R* c)
+1000035 1000003 -3|BR(~chi_40 -> ~s_L sb)
+1000035 -1000003 3|BR(~chi_40 -> ~s_L* s)
+1000035 2000003 -3|BR(~chi_40 -> ~s_R sb)
+1000035 -2000003 3|BR(~chi_40 -> ~s_R* s)
+1000035 1000006 -6|BR(~chi_40 -> ~t_1 tb)
+1000035 -1000006 6|BR(~chi_40 -> ~t_1* t)
+1000035 1000005 -5|BR(~chi_40 -> ~b_1 bb)
+1000035 -1000005 5|BR(~chi_40 -> ~b_1* b)
+1000035 1000011 -11|BR(~chi_40 -> ~e_L- e+)
+1000035 -1000011 11|BR(~chi_40 -> ~e_L+ e-)
+1000035 2000011 -11|BR(~chi_40 -> ~e_R- e+)
+1000035 -2000011 11|BR(~chi_40 -> ~e_R+ e-)
+1000035 1000013 -13|BR(~chi_40 -> ~mu_L- mu+)
+1000035 -1000013 13|BR(~chi_40 -> ~mu_L+ mu-)
+1000035 2000013 -13|BR(~chi_40 -> ~mu_R- mu+)
+1000035 -2000013 13|BR(~chi_40 -> ~mu_R+ mu-)
+1000035 1000015 -15|BR(~chi_40 -> ~tau_1- tau+)
+1000035 -1000015 15|BR(~chi_40 -> ~tau_1+ tau-)
+1000035 2000015 -15|BR(~chi_40 -> ~tau_2- tau+)
+1000035 -2000015 15|BR(~chi_40 -> ~tau_2+ tau-)
+1000035 1000012 -12|BR(~chi_40 -> ~nu_eL nu_eb)
+1000035 -1000012 12|BR(~chi_40 -> ~nu_eL* nu_e)
+1000035 1000014 -14|BR(~chi_40 -> ~nu_muL nu_mub)
+1000035 -1000014 14|BR(~chi_40 -> ~nu_muL* nu_mu)
+1000035 1000016 -16|BR(~chi_40 -> ~nu_tau1 nu_taub)
+1000035 -1000016 16|BR(~chi_40 -> ~nu_tau1* nu_tau)
+25
+25 5 -5|BR(h -> b bb)
+25 -15 15|BR(h -> tau+ tau-)
+25 -13 13|BR(h -> mu+ mu-)
+25 3 -3|BR(h -> s sb)
+25 4 -4|BR(h -> c cb)
+25 21 21|BR(h -> g g)
+25 22 22|BR(h -> gam gam)
+25 22 23|BR(h -> Z gam)
+25 24 -24|BR(h -> W+ W-)
+25 23 23|BR(h -> Z Z)
+35
+35 5 -5|BR(H -> b bb)
+35 -15 15|BR(H -> tau+ tau-)
+35 -13 13|BR(H -> mu+ mu-)
+35 3 -3|BR(H -> s sb)
+35 4 -4|BR(H -> c cb)
+35 6 -6|BR(H -> t tb)
+35 21 21|BR(H -> g g)
+35 22 22|BR(H -> gam gam)
+35 23 22|BR(H -> Z gam)
+35 24 -24|BR(H -> W+ W-)
+35 23 23|BR(H -> Z Z)
+35 25 25|BR(H -> h h)
+35 36 36|BR(H -> A A)
+35 23 36|BR(H -> Z A)
+35 1000022 1000022|BR(H -> ~chi_10 ~chi_10)
+35 1000022 1000023|BR(H -> ~chi_10 ~chi_20)
+35 1000022 1000025|BR(H -> ~chi_10 ~chi_30)
+35 1000006 -1000006|BR(H -> ~t_1 ~t_1*)
+35 1000015 -1000015|BR(H -> ~tau_1- ~tau_1+)
+35 2000015 -2000015|BR(H -> ~tau_2- ~tau_2+)
+35 1000015 -2000015|BR(H -> ~tau_1- ~tau_2+)
+35 2000015 -1000015|BR(H -> ~tau_2- ~tau_1+)
+36
+36 5 -5|BR(A -> b bb)
+36 -15 15|BR(A -> tau+ tau-)
+36 -13 13|BR(A -> mu+ mu-)
+36 3 -3|BR(A -> s sb)
+36 4 -4|BR(A -> c cb)
+36 6 -6|BR(A -> t tb)
+36 21 21|BR(A -> g g)
+36 22 22|BR(A -> gam gam)
+36 23 22|BR(A -> Z gam)
+36 23 25|BR(A -> Z h)
+36 1000022 1000022|BR(A -> ~chi_10 ~chi_10)
+36 1000022 1000023|BR(A -> ~chi_10 ~chi_20)
+36 1000022 1000025|BR(A -> ~chi_10 ~chi_30)
+36 1000015 -2000015|BR(A -> ~tau_1- ~tau_2+)
+36 -1000015 2000015|BR(A -> ~tau_1+ ~tau_2-)
+37
+37 4 -5|BR(H+ -> c bb)
+37 -15 16|BR(H+ -> tau+ nu_tau)
+37 -13 14|BR(H+ -> mu+ nu_mu)
+37 2 -5|BR(H+ -> u bb)
+37 2 -3|BR(H+ -> u sb)
+37 4 -3|BR(H+ -> c sb)
+37 6 -5|BR(H+ -> t bb)
+37 24 25|BR(H+ -> W+ h)
+37 24 36|BR(H+ -> W+ A)
+37 1000024 1000022|BR(H+ -> ~chi_1+ ~chi_10)
